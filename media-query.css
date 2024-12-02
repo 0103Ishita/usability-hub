@@ -8,6 +8,9 @@
     height: 300px;
 }
 @media screen and (max-width:991px) {
+    h3{
+        font-size: 1rem;
+    }
     .toggle-btn{
         display: block;
     }
@@ -21,5 +24,23 @@
     .example-card{
         width: calc(50% - 10px);
         height: 180px;
+    }
+    .logos{
+        justify-content: space-evenly;
+    }
+    .features-area{ 
+        justify-content: space-evenly;
+
+    }
+}
+@media screen and (max-width:767px){
+    .header-section{
+       flex-direction: column-reverse;
+    }
+    .header-left{
+        width: 100px;
+    }
+    .secondary-button{
+        width: 100%;
     }
 }
