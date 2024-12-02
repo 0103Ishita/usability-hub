@@ -253,7 +253,17 @@ footer{
 
   color:var(--accent-color-dark);
 }
+.subfooter{
+  background-color:#b9cde4;
 
+}
+.subfooter-container{
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: var(--padding-inline-section);
+
+}
 .spacer {
   min-height: 50vh;
 }
