@@ -264,6 +264,3 @@ footer{
   padding: var(--padding-inline-section);
 
 }
-.spacer {
-  min-height: 50vh;
-}
